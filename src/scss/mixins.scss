@@ -32,7 +32,7 @@
 @mixin header-1() {
   font-family: $default-font;
   font-weight: 800;
-  font-size: 71px;
+  font-size: vw(71);
   line-height: 110%;
   letter-spacing: -0.05em;
   text-transform: uppercase;
@@ -42,7 +42,7 @@
 @mixin header-2() {
   font-family: $default-font;
   font-weight: 700;
-  font-size: 36px;
+  font-size: vw(36);
   line-height: 91%;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -52,7 +52,7 @@
 @mixin header-3() {
   font-family: $default-font;
   font-weight: 700;
-  font-size: 57px;
+  font-size: vw(57);
   line-height: 100%;
   letter-spacing: -0.05em;
   text-transform: uppercase;
@@ -62,7 +62,7 @@
 @mixin header-4() {
   font-family: $default-font;
   font-weight: 700;
-  font-size: 25px;
+  font-size: vw(25);
   line-height: 91%;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -72,7 +72,7 @@
 @mixin header-5() {
   font-family: $default-font;
   font-weight: 700;
-  font-size: 22px;
+  font-size: vw(22);
   line-height: 131%;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -82,7 +82,7 @@
 @mixin paragraph-1() {
   font-family: $secondary-font;
   font-weight: 400;
-  font-size: 17px;
+  font-size: vw(17);
   line-height: 131%;
   letter-spacing: -0.03em;
   color: $black;
@@ -91,7 +91,7 @@
 @mixin paragraph-2() {
   font-family: $secondary-font;
   font-weight: 400;
-  font-size: 15px;
+  font-size: vw(15);
   line-height: 131%;
   letter-spacing: 0.01em;
   color: $black;
@@ -100,7 +100,7 @@
 @mixin link() {
   font-family: $tertiary-font;
   font-weight: 400;
-  font-size: 15px;
+  font-size: vw(15);
   line-height: 110%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -110,7 +110,7 @@
 @mixin button() {
   font-family: $tertiary-font;
   font-weight: 400;
-  font-size: 15px;
+  font-size: vw(15);
   line-height: 110%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -120,7 +120,7 @@
 @mixin logo() {
   font-family: $logo-font;
   font-weight: 700;
-  font-size: 20px;
+  font-size: vw(20);
   line-height: 110%;
   letter-spacing: -0.05em;
   color: $black;
