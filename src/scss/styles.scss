@@ -5,5 +5,18 @@
 @import './base';
 @import './container';
 
-@import './components//header';
+@import './components/header.scss';
+@import './components/reserve.scss';
 @import './components/footer.scss';
+
+@import './sections/home/hero.scss';
+@import './sections/home/aboutUs.scss';
+@import './sections/home/join.scss';
+@import './sections/home/discover.scss';
+
+@import './sections/about/hero.scss';
+@import './sections/about/outVision.scss';
+@import './sections/about/created.scss';
+
+@import './sections/reserve/hero.scss';
+@import './sections/reserve/sessionList.scss';
