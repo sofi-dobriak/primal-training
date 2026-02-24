@@ -1,0 +1,127 @@
+//screens
+@mixin mobile() {
+  @media screen and (max-width: 799px) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin laptop() {
+  @media screen and (max-width: 1365px) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media screen and (min-width: 1366px) {
+    @content;
+  }
+}
+
+//sizes
+@function vw($px) {
+  @return ($px / 1920) * 100vw;
+}
+
+//fonts
+@mixin header-1() {
+  font-family: $default-font;
+  font-weight: 800;
+  font-size: 71px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin header-2() {
+  font-family: $default-font;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 91%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin header-3() {
+  font-family: $default-font;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin header-4() {
+  font-family: $default-font;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 91%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin header-5() {
+  font-family: $default-font;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 131%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin paragraph-1() {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131%;
+  letter-spacing: -0.03em;
+  color: $black;
+}
+
+@mixin paragraph-2() {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131%;
+  letter-spacing: 0.01em;
+  color: $black;
+}
+
+@mixin link() {
+  font-family: $tertiary-font;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin button() {
+  font-family: $tertiary-font;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+@mixin logo() {
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: $black;
+}
