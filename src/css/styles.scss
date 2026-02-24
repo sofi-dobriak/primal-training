@@ -1,0 +1,9 @@
+@import './vars';
+@import './mixins';
+
+@import './reset';
+@import './base';
+@import './container';
+
+@import './components//header';
+@import './components/footer.scss';
